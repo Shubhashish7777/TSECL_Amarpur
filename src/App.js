@@ -1,5 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import IconTabs from './components/IconTabs';
+import * as React from 'react';
+import * as ReactDOM from 'react-dom/client';
+import { StyledEngineProvider } from '@mui/material/styles';
+
 
 function App() {
   return (
