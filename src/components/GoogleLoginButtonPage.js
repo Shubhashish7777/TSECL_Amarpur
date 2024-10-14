@@ -13,7 +13,7 @@ const GoogleLoginPage = () => {
     const email = decodedToken.email;
     const username = decodedToken.name;
 
-    if (email === 'shubhashish.saha.biz@gmail.com') {
+    if (email === 'shubhashish.saha.biz@gmail.com' || email==='bhowmikdipayanudp@gmail.com') {
       setUser({ email, username });
       setError(null);
     } else {
